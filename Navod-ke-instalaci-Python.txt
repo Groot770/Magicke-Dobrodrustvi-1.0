@@ -1,0 +1,20 @@
+Návod na spuštění hry "Magické dobrodružství"
+    1.) Instalace Pythonu:
+        -Přejděte na oficiální webové stránky Pythonu: python.org
+        -Vyberte sekci "Downloads" a stáhněte nejnovější verzi Pythonu pro váš operační systém (Windows/MacOS/Linux).
+        -Spusťte stažený instalační soubor a postupujte podle instrukcí na obrazovce. Při instalaci nezapomeňte zaškrtnout volbu "Add Python to PATH", což umožní spouštění Pythonu z příkazové řádky.
+    2.) Stáhněte soubor hry:
+        -Po úspěšné instalaci Pythonu stáhněte soubor hry (obvykle se jedná o soubor s příponou .py) na váš počítač.
+    3.) Spuštění hry pomocí IDLE:
+        -Klikněte pravým tlačítkem myši na soubor s příponou .py.
+        -V kontextovém menu najeďte na "Edit with IDLE". Měla by se vám zobrazit možnost "Edit with IDLE" následovaná verzí Pythonu, například "Edit with IDLE 3.11 (64-bit)".
+        Po kliknutí na tuto možnost se otevře editor IDLE s vaším kódem.
+    4.) Spusťte modul v IDLE:
+        -V hlavní liště editoru IDLE klikněte na "Run".
+        -Z rozevíracího menu vyberte "Run Module" nebo stiskněte klávesovou zkratku F5.
+        -Hra by se nyní měla spustit v novém okně.
+    5.) Hraní hry:
+        -Po spuštění hry budete sledovat instrukce na obrazovce a používat klávesnici pro interakci s hrou.
+    6.) Pokud máte potíže:
+        -Pokud máte jakékoli potíže s instalací nebo spuštěním hry, neváhejte kontaktovat podporu na e-mailu: 89nda@seznam.cz
+!upozornění! ve vlastním zájmu nečtěte kod pokud nechcete dopředu vědět výsledky akcí ve hře
