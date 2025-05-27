@@ -1,112 +1,103 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magické Dobrodružství - Informace</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; box-sizing: border-box; }
-        header { background-color: #f8f8f8; padding: 10px 0; text-align: center; }
-        nav ul { list-style-type: none; margin: 0; padding: 0; }
-        nav ul li { display: inline; margin-right: 20px; }
-        nav ul li a { text-decoration: none; color: #333; }
-        main { padding: 20px; }
-        .features-list { list-style: none; padding-left: 0; }
-        .features-list li { margin-bottom: 10px; }
-        footer { background-color: #333; color: white; text-align: center; padding: 10px 0; }
-        .warning { color: red; font-weight: bold; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magické Dobrodružství 1.0 – Informace</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; box-sizing:border-box; }
+    header { background:#f8f8f8; padding:10px 0; text-align:center; }
+    nav ul { list-style:none; margin:0; padding:0; }
+    nav ul li { display:inline; margin-right:20px; }
+    nav ul li a { text-decoration:none; color:#333; }
+    main { padding:20px; }
+    .features-list { list-style:none; padding-left:0; }
+    .features-list li { margin-bottom:10px; }
+    footer { background:#333; color:#fff; text-align:center; padding:10px 0; }
+    .warning { color:red; font-weight:bold; }
+  </style>
 </head>
 <body>
-<header>
-    <img src="https://github.com/Groot770/Magicke-Dobrodrustvi-1.0/raw/main/logo8.jpg" alt="Magické Dobrodružství Logo" style="max-width: 200px;">
-    <h1>Magické Dobrodružství 1.0 - Informace</h1>
+  <header>
+    <img src="https://github.com/Groot770/Magicke-Dobrodrustvi-1.0/raw/main/logo8.jpg"
+         alt="Magické Dobrodružství Logo" style="max-width:200px;">
+    <h1>Magické Dobrodružství 1.0 – Informace</h1>
     <nav>
-        <ul>
-            <li><a href="index.html">Hlavní</a></li>
-            <li><a href="info.html">Info</a></li>
-            <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Hlavní</a></li>
+        <li><a href="info.html" class="active">Info</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
     </nav>
-</header>
-<main>
+  </header>
+
+  <main>
     <section>
-        <h2>O hře</h2>
-        <p>Magické Dobrodružství je textová adventura, kde každá volba ovlivňuje příběh. Objevte tajemství, rozluštěte hádanky a rozhodněte o osudu své postavy.</p>
+      <h2>O hře</h2>
+      <p>Magické Dobrodružství je textová adventura, kde každá volba ovlivňuje váš příběh. Objevte tajemství, rozluštěte hádanky a rozhodněte o osudu své postavy.</p>
     </section>
 
     <section>
-        <h2>Hádanky a výzvy</h2>
-        <p>Ve hře na vás čeká řada hádanek a výzev. Logické myšlení, kreativita a rozhodování budou klíčem k vašemu úspěchu.</p>
+      <h2>Hádanky a výzvy</h2>
+      <p>Ve hře na vás čeká řada logických úkolů a výzev. Kreativita, logické myšlení a chytrost budou vaším klíčem k úspěchu.</p>
     </section>
 
+    <!-- Nová sekce Co vás čeká? -->
     <section id="features">
-        <h2>Co vás čeká?</h2>
-        <ul class="features-list">
-            <li>🔢 19 logických hádanek</li>
-            <li>🎲 Náhodný výběr hádanek při každém spuštění</li>
-            <li>🌐 100 % české rozhraní</li>
-            <li>🎮 3 úrovně obtížnosti u hádanek</li>
-        </ul>
+      <h2>Co vás čeká?</h2>
+      <ul class="features-list">
+        <li>🔢 Celkem <strong>19 logických hádanek</strong> (7+7+5)</li>
+        <li>🎲 Náhodný výběr hádanek při každém spuštění</li>
+        <li>🎮 3 úrovně obtížnosti hádanek</li>
+        <li>🌐 100 % české rozhraní</li>
+      </ul>
     </section>
 
     <section>
-        <h2>Tipy pro hráče</h2>
-        <ul>
-            <li>Prozkoumejte každé místo a hledejte skryté předměty.</li>
-            <li>Nenechte se odradit nezdarem – každá chyba je šance se něco naučit.</li>
-            <li>Vaše rozhodnutí mají důsledky, takže vybírejte moudře.</li>
-        </ul>
+      <h2>Tipy pro hráče</h2>
+      <ul>
+        <li>Prozkoumejte každé místo a hledejte skryté předměty.</li>
+        <li>Nenechte se odradit nezdarem – každá chyba je šance se něco naučit.</li>
+        <li>Vaše rozhodnutí mají důsledky, vybírejte moudře.</li>
+      </ul>
     </section>
 
     <section>
-        <h2>Ukončení a restart hry</h2>
-        <p>Hru můžete kdykoliv ukončit a restartovat. Buďte si vědomi, že vaše volby a postup nejsou ukládány po ukončení hry.</p>
+      <h2>Ukončení a restart hry</h2>
+      <p>Hru můžete kdykoli ukončit a spustit znovu, ale vaše předchozí volby se neukládají.</p>
     </section>
 
     <section>
-        <h2>Návod na spuštění hry "Magické Dobrodružství"</h2>
-        <ol>
-            <li>Instalace Pythonu:
-                <ul>
-                    <li>Přejděte na oficiální webové stránky Pythonu: <a href="https://python.org" target="_blank">python.org</a>.</li>
-                    <li>Vyberte sekci "Downloads" a stáhněte nejnovější verzi Pythonu pro váš operační systém (Windows/MacOS/Linux).</li>
-                    <li>Spusťte stažený instalační soubor a zaškrtněte "Add Python to PATH".</li>
-                </ul>
-            </li>
-            <li>Stáhněte soubor hry:
-                <ul>
-                    <li>Po úspěšné instalaci Pythonu stáhněte soubor hry na váš počítač.</li>
-                </ul>
-            </li>
-            <li>Spuštění hry pomocí IDLE:
-                <ul>
-                    <li>Klikněte pravým tlačítkem na soubor .py a vyberte "Edit with IDLE".</li>
-                    <li>V IDLE zvolte "Run Module" (F5) pro spuštění hry.</li>
-                </ul>
-            </li>
-            <li>Hraní hry:
-                <ul>
-                    <li>Řiďte se instrukcemi na obrazovce a používejte klávesnici pro volby.</li>
-                </ul>
-            </li>
-            <li>Potíže a podpora:
-                <ul>
-                    <li>Máte-li potíže, kontaktujte nás na: <a href="mailto:89nda@seznam.cz">89nda@seznam.cz</a>.</li>
-                </ul>
-            </li>
-        </ol>
-        <p class="warning">Upozornění! Ve vlastním zájmu nečtěte kód, pokud nechcete dopředu vědět výsledky akcí ve hře.</p>
+      <h2>Návod na spuštění hry</h2>
+      <ol>
+        <li><strong>Instalace Pythonu:</strong>
+          <ul>
+            <li>Na <a href="https://python.org" target="_blank">python.org</a> stáhněte a nainstalujte nejnovější verzi.</li>
+            <li>Zaškrtněte „Add Python to PATH“.</li>
+          </ul>
+        </li>
+        <li><strong>Stažení hry:</strong>
+          <ul><li>Uložte soubor <code>Magicke_dobrodruzstvi_1.0.py</code> do složky.</li></ul>
+        </li>
+        <li><strong>Spuštění v IDLE:</strong>
+          <ul>
+            <li>Pravým tlačítkem → „Edit with IDLE“ → Run Module (F5).</li>
+          </ul>
+        </li>
+        <li><strong>Hraní:</strong>
+          <ul><li>Řiďte se pokyny na obrazovce a vybírejte volby.</li></ul>
+        </li>
+        <li><strong>Podpora:</strong>
+          <ul><li>Písemné dotazy na <a href="mailto:89nda@seznam.cz">89nda@seznam.cz</a>.</li></ul>
+        </li>
+      </ol>
+      <p class="warning">Upozornění: Pokud nechcete znát výsledky akcí dopředu, kód neotvírejte.</p>
     </section>
-</main>
-<footer>
+  </main>
+
+  <footer>
     <p>&copy; 2024 Magické Dobrodružství</p>
-</footer>
+  </footer>
 </body>
 </html>
-
-
-
-
-
